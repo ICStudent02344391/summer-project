@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abernethy et~al.(2016)Abernethy, Amin, and Zhu]{NIPS2016_0bf727e9}
+J.~D. Abernethy, K.~Amin, and R.~Zhu.
+\newblock Threshold bandits, with and without censored feedback.
+\newblock In D.~Lee, M.~Sugiyama, U.~Luxburg, I.~Guyon, and R.~Garnett,
+  editors, \emph{Advances in Neural Information Processing Systems}, volume~29.
+  Curran Associates, Inc., 2016.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2016/file/0bf727e907c5fc9d5356f11e4c45d613-Paper.pdf}.
+
+\bibitem[Badanidiyuru et~al.(2021)Badanidiyuru, Feng, and
+  Guruganesh]{badanidiyuru2021learning}
+A.~Badanidiyuru, Z.~Feng, and G.~Guruganesh.
+\newblock Learning to bid in contextual first price auctions, 2021.
+
+\bibitem[Zhang et~al.(2023)Zhang, Lin, Zheng, Feng, Teng, and
+  Deng]{zhang2023learning}
+J.~Zhang, T.~Lin, W.~Zheng, Z.~Feng, Y.~Teng, and X.~Deng.
+\newblock Learning thresholds with latent values and censored feedback, 2023.
+
+\end{thebibliography}
