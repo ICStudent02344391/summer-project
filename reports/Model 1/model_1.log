@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.1.29)  12 JUN 2024 17:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2024.6.19)  19 JUN 2024 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/quent/Desktop/Msc Data Science/Summer term/Summer project/reports/Model 1/model_1.tex"
-(c:/Users/quent/Desktop/Msc Data Science/Summer term/Summer project/reports/Model 1/model_1.tex
+**"c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex"
+(c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -12,14 +12,14 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -27,6 +27,10 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
@@ -37,9 +41,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -54,7 +58,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip50
 \bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count196
+\c@NAT@ctr=\count192
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip52
@@ -72,14 +76,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count197
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count198
-\leftroot@=\count199
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count266
-\DOTSCASE@=\count267
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -92,20 +96,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen151
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count268
+\macc@depth=\count198
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count269
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks22
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks23
 \eqnshift@=\dimen152
 \alignsep@=\dimen153
@@ -156,9 +160,9 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
@@ -174,12 +178,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen167
 \cmidrulekern=\dimen168
 \defaultaddspace=\dimen169
-\@cmidla=\count275
-\@cmidlb=\count276
+\@cmidla=\count271
+\@cmidlb=\count272
 \@aboverulesep=\dimen170
 \@belowrulesep=\dimen171
-\@thisruleclass=\count277
-\@lastruleclass=\count278
+\@thisruleclass=\count273
+\@lastruleclass=\count274
 \@thisrulewidth=\dimen172
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
@@ -218,26 +222,26 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen182
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
 )
-\c@KVtest=\count281
+\c@KVtest=\count277
 \sf@farskip=\skip64
 \sf@captopadj=\dimen183
 \sf@capskip=\skip65
 \sf@nearskip=\skip66
-\c@subfigure=\count282
-\c@subfigure@save=\count283
-\c@lofdepth=\count284
-\c@subtable=\count285
-\c@subtable@save=\count286
-\c@lotdepth=\count287
+\c@subfigure=\count278
+\c@subfigure@save=\count279
+\c@lofdepth=\count280
+\c@subtable=\count281
+\c@subtable@save=\count282
+\c@lotdepth=\count283
 \sf@top=\skip67
 \sf@bottom=\skip68
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip69
-\multirow@cntb=\count288
+\multirow@cntb=\count284
 \multirow@dima=\skip70
 \bigstrutjot=\dimen184
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
@@ -245,7 +249,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count289
+\c@r@tfl@t=\count285
 \rotFPtop=\skip71
 \rotFPbot=\skip72
 \rot@float@box=\box55
@@ -272,7 +276,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -294,26 +298,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count290
+\c@section@level=\count286
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count291
+\etb@tempcnta=\count287
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count292
-\Hy@pagecounter=\count293
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count294
+\Hy@SavedSpaceFactor=\count290
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4167.
 Package hyperref Info: Link nesting OFF on input line 4172.
@@ -322,7 +322,7 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count295
+\c@Hy@tempcnt=\count291
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -334,7 +334,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count296
+\Fld@menulength=\count292
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6051.
@@ -348,22 +348,27 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count297
-\c@Item=\count298
-\c@Hfootnote=\count299
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2023-07-08 v7.01b Hyperref driver for XeTeX
+ (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box56
+\c@Hy@AnnotLevel=\count296
+\HyField@AnnotCount=\count297
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+ (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-\Fld@listcount=\count300
-\c@bookmark@seq@number=\count301
- (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
@@ -383,10 +388,9 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: xetex.def on input line 227.
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -395,71 +399,75 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count302
-\lst@gtempboxa=\box56
+\lst@mode=\count300
+\lst@gtempboxa=\box57
 \lst@token=\toks37
-\lst@length=\count303
+\lst@length=\count301
 \lst@currlwidth=\dimen189
-\lst@column=\count304
-\lst@pos=\count305
+\lst@column=\count302
+\lst@pos=\count303
 \lst@lostspace=\dimen190
 \lst@width=\dimen191
-\lst@newlines=\count306
-\lst@lineno=\count307
+\lst@newlines=\count304
+\lst@lineno=\count305
 \lst@maxwidth=\dimen192
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count308
-\lst@skipnumbers=\count309
-\lst@framebox=\box57
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
+\lst@framebox=\box58
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count310
+\c@float@type=\count308
 \float@exts=\toks38
-\float@box=\box58
+\float@box=\box59
 \@float@everytoks=\toks39
-\@floatcapt=\box59
+\@floatcapt=\box60
 )
 \@float@every@algorithm=\toks40
-\c@algorithm=\count311
+\c@algorithm=\count309
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count312
-\c@ALG@rem=\count313
-\c@ALG@nested=\count314
+\c@ALG@line=\count310
+\c@ALG@rem=\count311
+\c@ALG@nested=\count312
 \ALG@tlm=\skip83
 \ALG@thistlm=\skip84
-\c@ALG@Lnr=\count315
-\c@ALG@blocknr=\count316
-\c@ALG@storecount=\count317
-\c@ALG@tmpcounter=\count318
+\c@ALG@Lnr=\count313
+\c@ALG@blocknr=\count314
+\c@ALG@storecount=\count315
+\c@ALG@tmpcounter=\count316
 \ALG@tmplength=\skip85
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count319
+\FV@CodeLineNo=\count317
 \FV@InFile=\read3
-\FV@TabBox=\box60
-\c@FancyVerbLine=\count320
-\FV@StepNumber=\count321
+\FV@TabBox=\box61
+\c@FancyVerbLine=\count318
+\FV@StepNumber=\count319
 \FV@OutFile=\write4
 ) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/pythonhighlight\pythonhighlight.sty
 Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
-) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count322
-\l__pdf_internal_box=\box61
+) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2023-10-10 L3 backend support: XeTeX
+\g__graphics_track_int=\count320
+\l__pdf_internal_box=\box62
+\g__pdf_backend_object_int=\count321
+\g__pdf_backend_annotation_int=\count322
+\g__pdf_backend_link_int=\count323
 ) (model_1.aux)
 \openout1 = `model_1.aux'.
 
@@ -472,6 +480,12 @@ LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 45.
+ (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
@@ -483,9 +497,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -516,25 +530,6 @@ LaTeX Font Info:    ... okay on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen193
-\scratchbox=\box62
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen194
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks42
-) (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -543,11 +538,11 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 45.
- (model_1.out) (model_1.out)
+(model_1.out) (model_1.out)
 \@outlinefile=\write5
 \openout5 = `model_1.out'.
 
-\c@lstlisting=\count329
+\c@lstlisting=\count324
 LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -557,30 +552,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/quent/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2] [3] [4]
-<../../figures/arms_thresholds.png, id=59, 4047.12pt x 3035.34pt>
-File: ../../figures/arms_thresholds.png Graphic file (type png)
-<use ../../figures/arms_thresholds.png>
-Package pdftex.def Info: ../../figures/arms_thresholds.png  used on input line 257.
-(pdftex.def)             Requested size: 265.54219pt x 199.16928pt.
-<../../figures/arms_zones_thresholds.png, id=61, 4047.12pt x 3035.34pt>
-File: ../../figures/arms_zones_thresholds.png Graphic file (type png)
-<use ../../figures/arms_zones_thresholds.png>
-Package pdftex.def Info: ../../figures/arms_zones_thresholds.png  used on input line 263.
-(pdftex.def)             Requested size: 265.54219pt x 199.16928pt.
- [5 <../../figures/arms_thresholds.png>]
+] [2] [3] [4]
+File: ../../figures/arms_thresholds.png Graphic file (type bmp)
+<../../figures/arms_thresholds.png>
+File: ../../figures/arms_zones_thresholds.png Graphic file (type bmp)
+<../../figures/arms_zones_thresholds.png>
+ [5]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 295.
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [6 <../../figures/arms_zones_thresholds.png>]
-<../../figures/zooming_algo.png, id=77, 4047.12pt x 3035.34pt>
-File: ../../figures/zooming_algo.png Graphic file (type png)
-<use ../../figures/zooming_algo.png>
-Package pdftex.def Info: ../../figures/zooming_algo.png  used on input line 356.
-(pdftex.def)             Requested size: 265.54219pt x 199.16928pt.
+) [6]
+File: ../../figures/zooming_algo.png Graphic file (type bmp)
+<../../figures/zooming_algo.png>
  [7]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 366.
- [8 <../../figures/zooming_algo.png>] [9] (model_1.aux)
+ [8] [9] (model_1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -589,17 +575,12 @@ Package rerunfilecheck Info: File `model_1.out' has not changed.
 (rerunfilecheck)             Checksum: F15E5232BAE700E99DEB5D947BFF05C8;394.
  ) 
 Here is how much of TeX's memory you used:
- 15798 strings out of 474824
- 247883 string characters out of 5750977
- 1945043 words of memory out of 5000000
- 37486 multiletter control sequences out of 15000+600000
- 569905 words of font info for 79 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,12n,79p,629b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on model_1.pdf (9 pages, 35772246 bytes).
-PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 15367 strings out of 409955
+ 235894 string characters out of 5781215
+ 1934674 words of memory out of 5000000
+ 36915 multiletter control sequences out of 15000+600000
+ 569092 words of font info for 85 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 72i,12n,79p,646b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on model_1.xdv (9 pages, 84612 bytes).
