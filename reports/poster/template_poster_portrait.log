@@ -1,0 +1,37 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2024.6.19)  24 JUN 2024 02:28
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-
+project/reports/poster/template_poster_portrait.tex"
+
+(c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-pr
+oject/reports/poster/template_poster_portrait.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
+
+! LaTeX Error: File `ImperialPoster.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-pro
+ject/reports/poster/template_poster_portrait.tex:30: Emergency stop.
+<read *> 
+         
+l.30 ^^M
+        
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 409955
+ 788 string characters out of 5781215
+ 1912674 words of memory out of 5000000
+ 21864 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 19i,0n,29p,221b,17s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

@@ -24,7 +24,6 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[
-	landscape, % Landscape page orientation
 	%print, % Uncomment to convert colors to CMYK for printing purposes
 	%a1papersize, % Uncomment to use an A1 paper size instead of the default A0 paper size
 ]{ImperialPoster}
@@ -62,7 +61,7 @@
 
 \medskip % Vertical whitespace
 
-\begin{multicols}{4} % Start the four-column layout
+\begin{multicols}{2} % Start the four-column layout
 	
 	%----------------------------------------------------------------------------------------
 	%	FIRST COLUMN
@@ -83,7 +82,7 @@
 		\item The interval $[0,1]$ is \textcolor{ICLBlue}{partitioned} into $J$ sub-intervals of equal size. Playing \textcolor{ICLBlue}{arm} $j$ at round $t$ is then equivalent to making a bid 
 		$b_t^{(j)}$ uniformly in $\left[a_0^{(j)}, a_1^{(j)}\right],$ where $a_0^{(j)} = \frac{j-1}{J}$ and $a_1^{(j)} = \frac{j}{J}$.
 		\item The \textcolor{ICLBlue}{reward} associated with each round (after playing arm $j$) is
-		$$X_t^{(j)} = \delta_t^{(j)} (b_{\sup} - b_t^{(j)}).$$
+		$$X_t^{(j)} = \delta_t^{(j)} (1 - b_t^{(j)}).$$
 	\end{itemize}
     \subsection{2. Strategies for Selecting the Arm to Maximise Reward}
 	
@@ -142,12 +141,15 @@
 	\begin{itemize}
 		\item The \textcolor{ICLBlue}{regret} of an algorithm over $t$ rounds is
 		$$\mathfrak{R}_t(\pi) = \sum_{s=1}^{t}(\mu^* - \mu_{J_s}),$$
-		where $\mu^* = \max_{j = 1, \dots J}\mu_j$ is the expected reward of the optimal arm. The algorithms aim to minimise their regret.
-		Two examples of regret plots are in Figure \ref{fig:regret}.
+		where $\mu^* = \max_{j = 1, \dots J}\mu_j$ is the expected reward of the optimal arm. 
+		The algorithm seeks to minimize its regret. (Figure \ref{fig:regret}).
+
 	\end{itemize}
 	\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
 		\includegraphics[width=\linewidth]{"../../../../figures/regret.pdf"} % Figure image
-		\caption{Regret plot of adapted sequential halving theorem for $K = 50$, $\tau = 0.4$, $\sigma = 0.01$. Several simulations were done until convergence or divergence. The algorithm is not stable, especially when $n_{ep}$ is low.}
+		\caption{Regret plot of adapted sequential halving theorem for $J = 50$, $\tau = 0.4$, $\sigma = 0.01$. Several simulations were done until convergence or divergence. The algorithm is not stable, especially when $n_{ep}$ is low.
+		Two examples of regret plots show the instability of the algorithm based on the input data and 
+		that modifications need to be made to ensure convergence and good performance.}
 		\label{fig:regret}
 	\end{figure}
 
@@ -158,9 +160,9 @@
 	% A strategy must be found to divide the set of rounds into episodes, each having a starting round $t_0$ and an ending round $t_1$.
  
 
-	\begin{thebibliography}{5}
+	\begin{thebibliography}{1}
 		\bibitem{SHA}
-		Cheshire, James and Menard, Pierre and Carpentier, Alexandra (2021) \emph{Problem Dependent View on Structured Thresholding Bandit Problems, Proceedings of the 38th International Conference on Machine Learning, p1846--1854}
+		\small Cheshire, James and Menard, Pierre and Carpentier, Alexandra (2021) \emph{Problem Dependent View on Structured Thresholding Bandit Problems, In Proceedings of the 38th International Conference on Machine Learning, p1846--1854}
 		\end{thebibliography}
 \end{multicols}
 
