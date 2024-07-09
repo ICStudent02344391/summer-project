@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2024.6.19)  19 JUN 2024 23:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2024.6.19)  9 JUL 2024 10:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,11 +561,8 @@ File: ../../figures/arms_zones_thresholds.png Graphic file (type bmp)
 LaTeX Font Info:    Trying to load font information for U+euf on input line 295.
  (C:\Users\quent\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [6]
-File: ../../figures/zooming_algo.png Graphic file (type bmp)
-<../../figures/zooming_algo.png>
- [7]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 366.
+) [6] [7]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 408.
  [8] [9] (model_1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -575,12 +572,12 @@ Package rerunfilecheck Info: File `model_1.out' has not changed.
 (rerunfilecheck)             Checksum: F15E5232BAE700E99DEB5D947BFF05C8;394.
  ) 
 Here is how much of TeX's memory you used:
- 15367 strings out of 409955
- 235894 string characters out of 5781215
- 1934674 words of memory out of 5000000
- 36915 multiletter control sequences out of 15000+600000
+ 15356 strings out of 409955
+ 235536 string characters out of 5781215
+ 1936674 words of memory out of 5000000
+ 36905 multiletter control sequences out of 15000+600000
  569092 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,79p,646b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on model_1.xdv (9 pages, 84612 bytes).
+Output written on model_1.xdv (9 pages, 91400 bytes).

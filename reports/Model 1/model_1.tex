@@ -335,6 +335,48 @@ Finally:
         &+ \phi\left(\tilde{a}_1\right)\left(  2 ( b_{\sup} - \tau)-\sigma \tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\left(  2 ( b_{\sup} - \tau)- \sigma \tilde{a}_0\right)\biggr)
 \end{align*}
 
+\bigskip
+
+Now, we compute the second moment:
+
+\begin{align*}
+  \mathbb{E}[X_{j,t}^2] &= \mathbb{E}[\mathbb{I}_{\{\tau_t \leq b^{(j)}\}}(b_{\sup}-b^{(j)})^2] \\
+  & = \frac{1}{a_1 - a_0}\int_{a_0}^{a_1} (b_{\sup}-b)^2 \int_{-\infty}^{b} \frac{\phi\left(\frac{x - \tau}{\sigma}\right)}{\sigma} dx db \\
+  & = \left[- \frac{(b_{\sup}-b)^3}{3 (a_1 - a_0)} \Phi\left(\frac{b - \tau}{\sigma}\right) \right]_{a_0}^{a_1} + \frac{1}{a_1 - a_0}\int_{a_0}^{a_1}  \frac{(b_{\sup}-b)^3}{3 \sigma} \phi\left(\frac{b - \tau}{\sigma}\right)db.
+\end{align*}
+
+And (with $\tilde{a}_0 = \frac{a_{0} - \tau}{\sigma} $ and $\tilde{a}_1 = \frac{a_{1} - \tau}{\sigma}$):
+\begin{align*}
+  \int_{a_0}^{a_1}  \frac{(b_{\sup}-b)^3}{3 \sigma} \phi\left(\frac{b - \tau}{\sigma}\right)db & = \int_{\tilde{a}_0}^{\tilde{a}_1}  \frac{(b_{\sup}- \sigma b - \tau)^3}{3} \phi\left(b\right)db \\
+  & = - \frac{1}{3}\left(\sigma^3\int_{\tilde{a}_0}^{\tilde{a}_1} b^3 \phi\left(b\right)db\right. \\
+  & + 3 \sigma^2 (b_{\sup}- \tau)\int_{\tilde{a}_0}^{\tilde{a}_1} b^2 \phi\left(b\right)db \\
+  & - 3 \sigma (b_{\sup}- \tau)^2\int_{\tilde{a}_0}^{\tilde{a}_1} b \phi\left(b\right)db \\
+  & + \left.(b_{\sup}- \tau)^3 \int_{\tilde{a}_0}^{\tilde{a}_1} \phi\left(b\right)db \right).
+\end{align*}
+
+First,
+\begin{align*}
+  \sigma^3\int_{\tilde{a}_0}^{\tilde{a}_1} b^3 \phi\left(b\right)db = \sigma^3 \left( \tilde{a}_0^2 \phi(\tilde{a}_0) -\tilde{a}_1^2 \phi(\tilde{a}_1) + 2 \int_{\tilde{a}_0}^{\tilde{a}_1} b \phi(b) db\right)
+\end{align*}
+
+Then we have:
+\begin{align*}
+  \mathbb{E}[X_{j,t}^2] &= \frac{1}{3(a_1 - a_0)}\biggl( (b_{\sup}-a_0)^3 \Phi\left(\tilde{a}_0\right) - (b_{\sup}-a_1)^3 \Phi\left(\tilde{a}_1\right)\\
+ & + \sigma^3 \left( \tilde{a}_1^2 \phi(\tilde{a}_1) -\tilde{a}_0^2 \phi(\tilde{a}_0) + 2 \left( \phi\left(\tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\right) \right)\\
+ & + 3 \sigma^2 (b_{\sup}- \tau) \left( \Phi\left(\tilde{a}_1\right) -  \Phi\left(\tilde{a}_0\right) - \tilde{a}_1 \phi\left(\tilde{a}_1\right) + \tilde{a}_0 \phi\left(\tilde{a}_0\right)\right)\\
+ & - 3 \sigma (b_{\sup}- \tau)^2 \left( \phi\left(\tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\right)\\
+ & +  (b_{\sup}- \tau)^3 \left(\Phi\left(\tilde{a}_1\right) - \Phi\left(\tilde{a}_0\right) \right)\biggr)\\
+ & = \frac{1}{3(a_1 - a_0)}\biggl(\Phi\left(\tilde{a}_1\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_1)^3\right)\\
+ & - \Phi\left(\tilde{a}_0\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_0)^3\right) \\
+ & + \phi\left(\tilde{a}_1\right)\left( \sigma^3 \left(\tilde{a}_1^2 - 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - \sigma^2 (b_{\sup}- \tau)\tilde{a}_1  \right) \\
+ & - \phi\left(\tilde{a}_0\right)\left( \sigma^3 \left(\tilde{a}_0^2 - 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - \sigma^2 (b_{\sup}- \tau)\tilde{a}_0  \right) \biggr)
+\end{align*}
+
+From Chebyshev's inequality, for $\alpha > 0$:
+
+\begin{align*}
+  \mathbb{P}\left[\left|\hat{\mu}_{j,t} -\mu_j\right| \leq \alpha \ \right] \leq \frac{\mathbb{V}\left[X_j\right]}{\alpha^2 N_j(t)}
+\end{align*}
 
 
 
@@ -351,12 +393,12 @@ Contextual Bandits with Similarity Information
 Aleksandrs Slivkins 
 "
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[height=7cm]{"../../figures/zooming_algo.png"}
-  \caption{Zooming algorithm.}
-  \label{fig:zoom}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[height=7cm]{"../../figures/zooming_algo.png"}
+%   \caption{Zooming algorithm.}
+%   \label{fig:zoom}
+% \end{figure}
 
 \section{Algorithms used so far}
 

@@ -237,9 +237,6 @@ INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\ueuf.fd
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
-INPUT ..\..\figures\zooming_algo.png
-INPUT ..\..\figures\zooming_algo.png
-INPUT ..\..\figures\zooming_algo.png
 INPUT model_1.aux
 INPUT .\model_1.out
 INPUT .\model_1.out

@@ -1,13 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1718836568.96177 "model_1.xdv" "model_1.pdf" "model_1" 1718836677.0551 0
-  "model_1.xdv" 1718836568 84612 12745118181e37f82494a0cc6f1ddf6e "xelatex"
+["xdvipdfmx"] 1720212788.09672 "model_1.xdv" "model_1.pdf" "model_1" 1720212842.03341 0
+  "model_1.xdv" 1720212787 91420 040b59186a8b0d6e95f20a0dd987770b "xelatex"
   (generated)
   "model_1.pdf"
   (rewritten before read)
-["xelatex"] 1718836566.11225 "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" "model_1.xdv" "model_1" 1718836677.0416 0
+["xelatex"] 1720212785.99852 "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" "model_1.xdv" "model_1" 1720212842.01891 0
   "../../figures/arms_thresholds.png" 1717112115 10661449 392df2a43fdc18114501fb5972184742 ""
   "../../figures/arms_zones_thresholds.png" 1717112152 10801012 0ca72ce8508d6ff25c5ee67a3d995077 ""
-  "../../figures/zooming_algo.png" 1717765307 11421760 5f306bb44395a357b855afca66420e4c ""
   "C:/Users/quent/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1718836119 37488832 9897000e19597f8e646a5fe74ef5bc7f ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136772254 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -122,10 +121,10 @@
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1686255640 7392 ed69c044ab18d5539723c1c7b8c2ee88 ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" 1718836549 20150 3388cd1b1889a52646d1de03069ef2ac ""
-  "model_1.aux" 1718836568 2043 9cb2e15dc8a83a6eb4a2ab3bccfc9948 "xelatex"
-  "model_1.out" 1718836568 394 f15e5232bae700e99deb5d947bff05c8 "xelatex"
-  "model_1.tex" 1718836549 20150 3388cd1b1889a52646d1de03069ef2ac ""
+  "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" 1720212785 23286 940ef7e5c5ff8cc7ab863c18a173527a ""
+  "model_1.aux" 1720212787 1837 0bdc50baa2f899d1899f3f9d886ec192 "xelatex"
+  "model_1.out" 1720212787 394 f15e5232bae700e99deb5d947bff05c8 "xelatex"
+  "model_1.tex" 1720212785 23286 940ef7e5c5ff8cc7ab863c18a173527a ""
   (generated)
   "model_1.aux"
   "model_1.log"
