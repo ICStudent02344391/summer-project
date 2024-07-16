@@ -78,10 +78,6 @@ INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.s
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
@@ -90,6 +86,10 @@ INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvde
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
@@ -166,6 +166,10 @@ INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.s
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\pythonhighlight\pythonhighlight.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\pythonhighlight\pythonhighlight.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT C:\Users\quent\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
 INPUT .\model_1.aux

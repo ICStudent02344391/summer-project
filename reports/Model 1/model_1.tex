@@ -368,8 +368,8 @@ Then we have:
  & +  (b_{\sup}- \tau)^3 \left(\Phi\left(\tilde{a}_1\right) - \Phi\left(\tilde{a}_0\right) \right)\biggr)\\
  & = \frac{1}{3(a_1 - a_0)}\biggl(\Phi\left(\tilde{a}_1\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_1)^3\right)\\
  & - \Phi\left(\tilde{a}_0\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_0)^3\right) \\
- & + \phi\left(\tilde{a}_1\right)\left( \sigma^3 \left(\tilde{a}_1^2 - 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - \sigma^2 (b_{\sup}- \tau)\tilde{a}_1  \right) \\
- & - \phi\left(\tilde{a}_0\right)\left( \sigma^3 \left(\tilde{a}_0^2 - 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - \sigma^2 (b_{\sup}- \tau)\tilde{a}_0  \right) \biggr)
+ & + \phi\left(\tilde{a}_1\right)\left( \sigma^3 \left(\tilde{a}_1^2 + 2 \right) - 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_1  \right) \\
+ & - \phi\left(\tilde{a}_0\right)\left( \sigma^3 \left(\tilde{a}_0^2 + 2 \right) - 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_0  \right) \biggr)
 \end{align*}
 
 From Chebyshev's inequality, for $\alpha > 0$:
@@ -380,25 +380,6 @@ From Chebyshev's inequality, for $\alpha > 0$:
 
 
 
-\section{Zooming algorithm}
-refs:
-
-"
-Multi-Armed Bandits in Metric Spaces
-Kleinberg Slivkins Upfal
-"
-
-"
-Contextual Bandits with Similarity Information
-Aleksandrs Slivkins 
-"
-
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[height=7cm]{"../../figures/zooming_algo.png"}
-%   \caption{Zooming algorithm.}
-%   \label{fig:zoom}
-% \end{figure}
 
 \section{Algorithms used so far}
 
@@ -426,18 +407,6 @@ In the simulations, $b_{\inf} = 0$ and $b_{\sup} = 1$
   \State \Return $rew$, $count$
 \end{algorithmic}
 \end{algorithm}
-
-\begin{algorithm}[H]
-  \caption{Zooming algorithm}
-  \label{code:zoom}
-  \begin{algorithmic}[0]
-  \Require Number of rounds by episode $T_{ep}$ (even number).
-  \State $r = b_{\sup} - b_{\inf}/4$; $B_{\inf} = B(r, r)$; $B_{\sup} = B(3r, r)$;$listB = [B_{\inf}, B_{\sup} = B(3r, r)]$ \Comment{Initialisation}
-
-\end{algorithmic}
-\end{algorithm}
-
-
 
 \section{Time series}
 refs:
