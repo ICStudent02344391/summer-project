@@ -1,12 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1721150520.53645 "model_1.xdv" "model_1.pdf" "model_1" 1721150573.79993 0
-  "model_1.xdv" 1721150520 88020 111bb0366c82f9d922815a6af5290544 "xelatex"
+["xdvipdfmx"] 1721392389.32399 "model_1.xdv" "model_1.pdf" "model_1" 1721392390.24092 0
+  "model_1.xdv" 1721392389 96100 5093c15494c6d485d04c678230aa6518 "xelatex"
   (generated)
   "model_1.pdf"
   (rewritten before read)
-["xelatex"] 1721150519.04923 "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" "model_1.xdv" "model_1" 1721150573.78966 0
-  "../../figures/arms_thresholds.png" 1717112115 10661449 392df2a43fdc18114501fb5972184742 ""
-  "../../figures/arms_zones_thresholds.png" 1717112152 10801012 0ca72ce8508d6ff25c5ee67a3d995077 ""
+["xelatex"] 1721392387.35512 "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" "model_1.xdv" "model_1" 1721392390.22497 0
+  "../../figures/expect_rew_partition50.pdf" 1721392386 16509 879ded74e83004a7e4d8b3cca6c1aace ""
   "C:/Users/quent/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1720518164 37546046 6974c5f99683e3cc9c5cdfb7f49c24a3 ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136772254 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -123,10 +122,10 @@
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/quent/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" 1721150515 22567 3e39bb8ea9bc302bc45958d7facbca9b ""
-  "model_1.aux" 1721150520 1134 be4fc317b547aebf5a08cf81b21c76ed "xelatex"
-  "model_1.out" 1721150520 263 ae1db8bf827ac6ac6ebcdaa87d5b5416 "xelatex"
-  "model_1.tex" 1721150515 22567 3e39bb8ea9bc302bc45958d7facbca9b ""
+  "c:/Users/quent/Desktop/Msc Data Science/0-summer-term/Summer project/summer-project/reports/Model 1/model_1.tex" 1721392386 24445 f241114e5d6e7bf0918cef3f1fed7b34 ""
+  "model_1.aux" 1721392388 1003 9bd71743d67f4205924849fee4b4e06c "xelatex"
+  "model_1.out" 1721392388 263 ae1db8bf827ac6ac6ebcdaa87d5b5416 "xelatex"
+  "model_1.tex" 1721392386 24445 f241114e5d6e7bf0918cef3f1fed7b34 ""
   (generated)
   "model_1.aux"
   "model_1.log"

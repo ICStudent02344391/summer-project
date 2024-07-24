@@ -252,18 +252,18 @@ We deduce $Q((\tau, \sigma), (\tau_n, \sigma_n))$ is maximised for $\tau = \tau^
 
 We assume that the threshold values are bounded and that the bounds are known $(b_{\inf}, b_{\sup})$. We partition the domain of the threshold values into different zones where $J$ arms can propose their bids. At time $t$, arm $J_t \in \{1, \dots J\}$ proposes a bid.
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[height=7cm]{"../../figures/arms_thresholds.png"}
-  \caption{Partitioning of zones for each arm.}
-  \label{fig:partition_arm}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[height=7cm]{"../../figures/arms_zones_thresholds.png"}
-  \caption{Zones for each arm.}
-  \label{fig:zones_arm}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[height=7cm]{"../../figures/arms_thresholds.png"}
+%   \caption{Partitioning of zones for each arm.}
+%   \label{fig:partition_arm}
+% \end{figure}
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[height=7cm]{"../../figures/arms_zones_thresholds.png"}
+%   \caption{Zones for each arm.}
+%   \label{fig:zones_arm}
+% \end{figure}
 
 (Lecture notes)
 "For any arm j, let
@@ -348,7 +348,7 @@ Now, we compute the second moment:
 And (with $\tilde{a}_0 = \frac{a_{0} - \tau}{\sigma} $ and $\tilde{a}_1 = \frac{a_{1} - \tau}{\sigma}$):
 \begin{align*}
   \int_{a_0}^{a_1}  \frac{(b_{\sup}-b)^3}{3 \sigma} \phi\left(\frac{b - \tau}{\sigma}\right)db & = \int_{\tilde{a}_0}^{\tilde{a}_1}  \frac{(b_{\sup}- \sigma b - \tau)^3}{3} \phi\left(b\right)db \\
-  & = - \frac{1}{3}\left(\sigma^3\int_{\tilde{a}_0}^{\tilde{a}_1} b^3 \phi\left(b\right)db\right. \\
+  & = \frac{1}{3}\left(- \sigma^3\int_{\tilde{a}_0}^{\tilde{a}_1} b^3 \phi\left(b\right)db\right. \\
   & + 3 \sigma^2 (b_{\sup}- \tau)\int_{\tilde{a}_0}^{\tilde{a}_1} b^2 \phi\left(b\right)db \\
   & - 3 \sigma (b_{\sup}- \tau)^2\int_{\tilde{a}_0}^{\tilde{a}_1} b \phi\left(b\right)db \\
   & + \left.(b_{\sup}- \tau)^3 \int_{\tilde{a}_0}^{\tilde{a}_1} \phi\left(b\right)db \right).
@@ -364,22 +364,55 @@ Then we have:
   \mathbb{E}[X_{j,t}^2] &= \frac{1}{3(a_1 - a_0)}\biggl( (b_{\sup}-a_0)^3 \Phi\left(\tilde{a}_0\right) - (b_{\sup}-a_1)^3 \Phi\left(\tilde{a}_1\right)\\
  & + \sigma^3 \left( \tilde{a}_1^2 \phi(\tilde{a}_1) -\tilde{a}_0^2 \phi(\tilde{a}_0) + 2 \left( \phi\left(\tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\right) \right)\\
  & + 3 \sigma^2 (b_{\sup}- \tau) \left( \Phi\left(\tilde{a}_1\right) -  \Phi\left(\tilde{a}_0\right) - \tilde{a}_1 \phi\left(\tilde{a}_1\right) + \tilde{a}_0 \phi\left(\tilde{a}_0\right)\right)\\
- & - 3 \sigma (b_{\sup}- \tau)^2 \left( \phi\left(\tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\right)\\
+ & + 3 \sigma (b_{\sup}- \tau)^2 \left( \phi\left(\tilde{a}_1\right) - \phi\left(\tilde{a}_0\right)\right)\\
  & +  (b_{\sup}- \tau)^3 \left(\Phi\left(\tilde{a}_1\right) - \Phi\left(\tilde{a}_0\right) \right)\biggr)\\
  & = \frac{1}{3(a_1 - a_0)}\biggl(\Phi\left(\tilde{a}_1\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_1)^3\right)\\
  & - \Phi\left(\tilde{a}_0\right) \left( (b_{\sup}- \tau)^3 +3 \sigma^2 (b_{\sup}- \tau) - (b_{\sup}-a_0)^3\right) \\
- & + \phi\left(\tilde{a}_1\right)\left( \sigma^3 \left(\tilde{a}_1^2 + 2 \right) - 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_1  \right) \\
- & - \phi\left(\tilde{a}_0\right)\left( \sigma^3 \left(\tilde{a}_0^2 + 2 \right) - 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_0  \right) \biggr)
+ & + \phi\left(\tilde{a}_1\right)\left( \sigma^3 \left(\tilde{a}_1^2 + 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_1  \right) \\
+ & - \phi\left(\tilde{a}_0\right)\left( \sigma^3 \left(\tilde{a}_0^2 + 2 \right) + 3 \sigma (b_{\sup}- \tau)^2 - 3 \sigma^2 (b_{\sup}- \tau)\tilde{a}_0  \right) \biggr)
 \end{align*}
 
-From Chebyshev's inequality, for $\alpha > 0$:
+From Bernstein's inequality for $\alpha > 0$, since $\left|\hat{\mu}_{j,t} -\mu_j\right|\leq b_{sup}$, here $b_{sup} = 1$:
 
 \begin{align*}
-  \mathbb{P}\left[\left|\hat{\mu}_{j,t} -\mu_j\right| \leq \alpha \ \right] \leq \frac{\mathbb{V}\left[X_j\right]}{\alpha^2 N_j(t)}
+  \mathbb{P}\left[\left|\hat{\mu}_{j,t} -\mu_j\right| > \alpha \ \right] \leq 2 \exp\left(- \frac{N_j(t)\alpha^2}{2 \mathbb{V}[X_j] + \frac{2}{3} \alpha}\right)
 \end{align*}
 
+Corollary: since $\left|\hat{\mu}_{j,t} -\mu_j\right|\leq 1$, with probability $1 - \delta$:
 
+\begin{align*}
+  \left|\hat{\mu}_{j,t} -\mu_j\right|  \leq \sqrt{\frac{4 \mathbb{V}[X_j] \log \frac{2}{\delta}}{N_j(t)}} + \frac{4 \log\frac{2}{\delta}}{3N_j(t)}
+\end{align*}
 
+Now, we want to find $n_{\delta} \in \mathbb{N}$ such that $\left|\hat{\mu}_{j,t} -\mu_j\right| \leq \alpha$ with probability $1 - \delta$. We need to solve, for $z\in \mathbb{R}$:
+\[
+- \alpha z^2 + \sqrt{4 \mathbb{V}\left[X_j\right] \kappa} z + \frac{4}{3} \kappa = 0
+\]
+where $\kappa = \log\frac{2}{\delta}.$
+
+The roots are:
+\[
+z_{\pm} = \frac{\sqrt{\mathbb{V}\left[X_j\right] \kappa} \pm \sqrt{\mathbb{V}\left[X_j\right]\kappa + \frac{4}{3}\alpha \kappa}}{ \alpha}
+\]
+
+Finally, we find:
+\[
+  n_{\delta} \geq \log\frac{2}{\delta} \left(\frac{\sqrt{\mathbb{V}\left[X_j\right] } + \sqrt{\mathbb{V}\left[X_j\right] + \frac{4}{3}\alpha }}{\alpha}\right)^2
+\]
+
+We need to find a way to choose $\alpha$. Given different $\sigma$, the expected rewards are plot in figure (\ref{fig:partition50}), for a partition of 50 increments.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[height=6cm]{"../../figures/expect_rew_partition50.pdf"}
+  \caption{Expected rewards for each arm (partition $[i/50, (i+1)/50], i = 0,\dots 49$)}
+  \label{fig:partition50}
+\end{figure}
+
+When three arms are aligned, a rule is needed to definitively select the middle arm. 
+In the algorithm used, the rule is simple: for a period of $n_{ep}$, the algorithm selects 
+the middle arm with a probability $p$ and the other arms equally with a probability of $1 - p$. 
+As long as the best arm is the middle one, the algorithm increases the probability $p$ until it tends towards 1.
 
 \section{Algorithms used so far}
 
@@ -401,7 +434,7 @@ In the simulations, $b_{\inf} = 0$ and $b_{\sup} = 1$
   \Else \Comment{Exploitation}
   \State $j^* = \text{argmax}_{j \in \{1, \dots J\}} (rew_j / \max(1, count_j))_{j=1}^J$
   \EndIf
-  \State Draw bid $b$ from a uniform distribution in zone $j^*$.
+  \State Draw bid $b$ from a uniform distribution in zone $j^*$
   \State Update $rew_{j^*} += reward(b, \tau_t)$; $count_{j^*} += 1$
   \EndFor
   \State \Return $rew$, $count$
