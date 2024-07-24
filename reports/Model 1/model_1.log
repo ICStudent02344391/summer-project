@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.7.9)  19 JUL 2024 13:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.7.9)  24 JUL 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,14 +562,15 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [5] [6] [7]
 File: ../../figures/expect_rew_partition50.pdf Graphic file (type pdf)
 <use ../../figures/expect_rew_partition50.pdf>
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 422.
- [8] [9] (model_1.aux)
+ [8]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 434.
+ [9] (model_1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `model_1.out' has not changed.
-(rerunfilecheck)             Checksum: AE1DB8BF827AC6AC6EBCDAA87D5B5416;263.
+(rerunfilecheck)             Checksum: FCA9A212BE8FCCFE9C6F5F15E5C31554;364.
  ) 
 Here is how much of TeX's memory you used:
  15448 strings out of 409617
@@ -580,4 +581,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  79i,12n,93p,646b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on model_1.xdv (9 pages, 96100 bytes).
+Output written on model_1.xdv (9 pages, 105804 bytes).

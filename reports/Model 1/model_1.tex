@@ -414,6 +414,18 @@ In the algorithm used, the rule is simple: for a period of $n_{ep}$, the algorit
 the middle arm with a probability $p$ and the other arms equally with a probability of $1 - p$. 
 As long as the best arm is the middle one, the algorithm increases the probability $p$ until it tends towards 1.
 
+\section{Last update}
+\subsection*{Sequential halving Algorithm with EM}
+
+\begin{itemize}
+  \item Based on a predefined partition, run the sequential halving algorithm until 3 arms are aligned;
+  \item Place bids on the three selected arms. If the empirical mean of the middle arm is not the largest, return to the sequential halving algorithm step;
+  \item Otherwise, run the EM algorithm on these bids to obtain an estimate of the standard deviation ($\hat{\sigma}$) and the mean ($\hat{\tau}$) of the threshold distribution;
+  \item Calculate the variance estimate for the middle arm using $\hat{\sigma}$ and $\hat{\tau}$, and calculate the estimate of half the difference between the mean of the best arm and that of the second best;
+  \item Calculate the number of iterations ($n_{\text{Bernstein}}$) to construct a confidence interval according to Bernstein's inequality;
+  \item Play the three selected arms $n_{\text{Bernstein}}$ times. If the middle arm is still the best, it is chosen; otherwise, return to the sequential halving algorithm step.
+\end{itemize}
+
 \section{Algorithms used so far}
 
 In the simulations, $b_{\inf} = 0$ and $b_{\sup} = 1$
