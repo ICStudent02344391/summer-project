@@ -1,0 +1,108 @@
+\relax 
+\providecommand*\new@tpo@label[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/r>>}
+\HyPL@Entry{1<</S/r>>}
+\citation{slivkins2024introductionmultiarmedbandits}
+\citation{pmlr-v139-cheshire21a}
+\citation{slivkins2024introductionmultiarmedbandits}
+\HyPL@Entry{3<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}\protected@file@percent }
+\citation{NIPS2016_0bf727e9}
+\citation{badanidiyuru2021learningbidcontextualprice}
+\citation{pmlr-v139-cheshire21a}
+\citation{Sutton1998}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methods}{4}{section.0.2}\protected@file@percent }
+\newlabel{sec:methods}{{2}{4}{Methods}{section.0.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Notations and assumptions}{4}{subsection.0.2.1}\protected@file@percent }
+\newlabel{subsec:notation_assumptions}{{2.1}{4}{Notations and assumptions}{subsection.0.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of attempts to bid above a threshold (in blue) over 20 rounds. Bids above the threshold are shown in green, and bids below the threshold are shown in red.}}{5}{figure.0.1}\protected@file@percent }
+\newlabel{fig:bid-above-threshold}{{1}{5}{Illustration of attempts to bid above a threshold (in blue) over 20 rounds. Bids above the threshold are shown in green, and bids below the threshold are shown in red}{figure.0.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Partition of the bid space and reward function}{5}{subsection.0.2.2}\protected@file@percent }
+\newlabel{subsec:reward_partition}{{2.2}{5}{Partition of the bid space and reward function}{subsection.0.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Partition}{5}{subsubsection.0.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Reward and expected reward}{5}{subsubsection.0.2.2.2}\protected@file@percent }
+\newlabel{eq:reward}{{1}{5}{Reward and expected reward}{equation.0.2.1}{}}
+\newlabel{eq:expected_reward}{{2}{6}{Reward and expected reward}{equation.0.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Step graph of the expected rewards for each arm for a partition of 50 arms in total. Three configurations are displayed: threshold distribution with a standard deviation $\sigma \in \{0.01, 0.05, 0.1\}$. Moreover, $\tau = 0.5$ and $b_{\sup } = 1$}}{8}{figure.0.2}\protected@file@percent }
+\newlabel{fig:exp-rew}{{2}{8}{Step graph of the expected rewards for each arm for a partition of 50 arms in total. Three configurations are displayed: threshold distribution with a standard deviation $\sigma \in \{0.01, 0.05, 0.1\}$. Moreover, $\tau = 0.5$ and $b_{\sup } = 1$}{figure.0.2}{}}
+\newlabel{eq:empirical_exp_rew}{{3}{8}{Reward and expected reward}{equation.0.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Regret of an algorithm}{8}{subsubsection.0.2.2.3}\protected@file@percent }
+\citation{Hoeffding1963}
+\newlabel{eq:regret}{{4}{9}{Regret of an algorithm}{equation.0.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Hoeffding and Bernstein inequalities}{9}{subsection.0.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Hoeffding's Inequality}{9}{subsubsection.0.2.3.1}\protected@file@percent }
+\citation{foucart13}
+\citation{foucart13}
+\newlabel{eq:hoeffding}{{5}{10}{Hoeffding's Inequality (\cite {Hoeffding1963})}{equation.0.2.5}{}}
+\newlabel{eq:hoeffding_bound}{{6}{10}{Hoeffding's Inequality}{equation.0.2.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Bernstein's Inequality}{10}{subsubsection.0.2.3.2}\protected@file@percent }
+\newlabel{eq:bernstein_coro}{{7}{10}{Bernstein's Inequality}{equation.0.2.7}{}}
+\newlabel{eq:bernstein}{{8}{11}{Bernstein's Inequality}{equation.0.2.8}{}}
+\newlabel{eq:variance_reward}{{9}{11}{Variance}{equation.0.2.9}{}}
+\citation{mnih:hal-00834983}
+\citation{Sutton1998}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Step graph of the variance of the reward distribution for each arm for a partition of 50 and 300 arms. Three configurations are displayed: $\tau = 0.2$ and $\sigma \in \{0.05, 0.01\}$; $\tau = 0.5$ and $\sigma = 0.05$}}{13}{figure.0.3}\protected@file@percent }
+\newlabel{fig:variance-reward}{{3}{13}{Step graph of the variance of the reward distribution for each arm for a partition of 50 and 300 arms. Three configurations are displayed: $\tau = 0.2$ and $\sigma \in \{0.05, 0.01\}$; $\tau = 0.5$ and $\sigma = 0.05$}{figure.0.3}{}}
+\newlabel{eq:empirical_bernstein}{{10}{13}{Variance}{equation.0.2.10}{}}
+\citation{slivkins2024introductionmultiarmedbandits}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Non-adaptative exploration and exploitation algorithm: epsilon-greedy}{14}{subsection.0.2.4}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Epsilon-greedy algorithm}}{14}{algorithm.1}\protected@file@percent }
+\newlabel{code:epsilon_greedy}{{1}{14}{Non-adaptative exploration and exploitation algorithm: epsilon-greedy}{algorithm.1}{}}
+\citation{ucbcitation}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Optimistic algorithm: Upper Confidence Bound (UCB) algorithm}{15}{subsection.0.2.5}\protected@file@percent }
+\newlabel{eq:UCB_hoeffding}{{11}{15}{Optimistic algorithm: Upper Confidence Bound (UCB) algorithm}{equation.0.2.11}{}}
+\citation{pmlr-v139-cheshire21a}
+\newlabel{eq:UCB_bernstein}{{12}{16}{Optimistic algorithm: Upper Confidence Bound (UCB) algorithm}{equation.0.2.12}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces UCB algorithm}}{16}{algorithm.2}\protected@file@percent }
+\newlabel{code:UCB}{{2}{16}{Optimistic algorithm: Upper Confidence Bound (UCB) algorithm}{algorithm.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Adaptative sequential halving algorithm}{16}{subsection.0.2.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Illustration of the choice of new arms to play for the sequential halving algorithm between t and t+1. The left part of the figure shows the case where the three arms seem to surround a peak at round $t$, and the algorithm refines the search by performing a halving at $t+1$. The right part shows the case where the three arms are in a descending configuration at $t$, and the algorithm shifts to the left at $t+1$.}}{18}{figure.0.4}\protected@file@percent }
+\newlabel{fig:seq-halving}{{4}{18}{Illustration of the choice of new arms to play for the sequential halving algorithm between t and t+1. The left part of the figure shows the case where the three arms seem to surround a peak at round $t$, and the algorithm refines the search by performing a halving at $t+1$. The right part shows the case where the three arms are in a descending configuration at $t$, and the algorithm shifts to the left at $t+1$}{figure.0.4}{}}
+\newlabel{eq:LCB_hoeffding}{{13}{19}{Adaptative sequential halving algorithm}{equation.0.2.13}{}}
+\newlabel{eq:LCB_bernstein}{{14}{19}{Adaptative sequential halving algorithm}{equation.0.2.14}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces Adaptative Sequential Halving Algorithm}}{20}{algorithm.3}\protected@file@percent }
+\newlabel{alg:SHA}{{3}{20}{Adaptative sequential halving algorithm}{algorithm.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{21}{section.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{21}{subsection.0.3.1}\protected@file@percent }
+\newlabel{eq:hoeffding_test}{{15}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.15}{}}
+\newlabel{eq:UCB_hoeffding_test}{{15a}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.15a}{}}
+\newlabel{eq:LCB_hoeffding_test}{{15b}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.15b}{}}
+\newlabel{eq:bernstein_test}{{16}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.16}{}}
+\newlabel{eq:UCB_bernstein_test}{{16a}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.16a}{}}
+\newlabel{eq:LCB_bernstein_test}{{16b}{21}{Analysis of the confidence parameter in the case of the Sequential Halving Algorithm}{equation.0.3.16b}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}The required number of iterations according to the value of the confidence parameter}{22}{subsubsection.0.3.1.1}\protected@file@percent }
+\newlabel{eq:n_hoeffding}{{17}{22}{The required number of iterations according to the value of the confidence parameter}{equation.0.3.17}{}}
+\newlabel{eq:n_bernstein}{{18}{22}{The required number of iterations according to the value of the confidence parameter}{equation.0.3.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the number of times the top three arms must be played to select the optimal arm, given the confidence parameter $\delta $. Multiple threshold distributions are tested, and for each, three more or less precise partitions are used. On the left, the confidence parameter uses Bernstein bounds ()\ref {eq:n_bernstein}); on the right, it uses Hoeffding bounds (\ref {eq:n_hoeffding}).}}{23}{figure.0.5}\protected@file@percent }
+\newlabel{fig:delta_test}{{5}{23}{Comparison of the number of times the top three arms must be played to select the optimal arm, given the confidence parameter $\delta $. Multiple threshold distributions are tested, and for each, three more or less precise partitions are used. On the left, the confidence parameter uses Bernstein bounds ()\ref {eq:n_bernstein}); on the right, it uses Hoeffding bounds (\ref {eq:n_hoeffding})}{figure.0.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Success probability of the Sequential Halving Algorithm according to the values of the confidence parameter}{24}{subsubsection.0.3.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Bar plot of the success rates of the sequential halving algorithm with Bernstein's and Hoeffding's bounds. The standard deviation of the threshold distribution is $\sigma = 0.02$ and the partition consists of 30 arms. Confidence parameters $\delta \in \{0.6, 0.8, 0.99, 0.999\}$ and threshold distribution means $\tau \in \{0.3, 0.5, 0.7\}$ are tested.}}{24}{figure.0.6}\protected@file@percent }
+\newlabel{fig:succes_rate}{{6}{24}{Bar plot of the success rates of the sequential halving algorithm with Bernstein's and Hoeffding's bounds. The standard deviation of the threshold distribution is $\sigma = 0.02$ and the partition consists of 30 arms. Confidence parameters $\delta \in \{0.6, 0.8, 0.99, 0.999\}$ and threshold distribution means $\tau \in \{0.3, 0.5, 0.7\}$ are tested}{figure.0.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Comparison of the Regret of the Different Tested Algorithms}{25}{subsection.0.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Comparison of regret using the Bernstein's bound for $J \in \{10, 50, 100\}$. On the left, the regrets of the three algorithms are displayed; on the right, the same regrets but only for the UCB and Sequential Halving algorithms.}}{25}{figure.0.7}\protected@file@percent }
+\newlabel{fig:regret_bern}{{7}{25}{Comparison of regret using the Bernstein's bound for $J \in \{10, 50, 100\}$. On the left, the regrets of the three algorithms are displayed; on the right, the same regrets but only for the UCB and Sequential Halving algorithms}{figure.0.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparison of regret using the Hoeffding's bound for $J \in \{10, 50, 100\}$. On the left, the regrets of the three algorithms are displayed; on the right, the same regrets but only for the UCB and Sequential Halving algorithms.}}{26}{figure.0.8}\protected@file@percent }
+\newlabel{fig:regret_hoeff}{{8}{26}{Comparison of regret using the Hoeffding's bound for $J \in \{10, 50, 100\}$. On the left, the regrets of the three algorithms are displayed; on the right, the same regrets but only for the UCB and Sequential Halving algorithms}{figure.0.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Using the Sequential Halving algorithm to narrow down the range of optimal bids given a fixed budget}{27}{subsection.0.3.3}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces Zooming Sequential Halving Algorithm}}{28}{algorithm.4}\protected@file@percent }
+\newlabel{alg:ZoomSha}{{4}{28}{Using the Sequential Halving algorithm to narrow down the range of optimal bids given a fixed budget}{algorithm.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces An example of searching for a range of bids with a confidence parameter $\delta = 0.4$, using successive partitions of $J=6$ arms, and with a threshold distribution following $\mathcal  {N}(0.6, 0.02)$. The red vertical lines indicate the bounds of the bid intervals chosen progressively by Algorithm \ref {alg:ZoomSha}. The selected interval becomes increasingly precise and is always contained within the previously selected intervals.}}{28}{figure.0.9}\protected@file@percent }
+\newlabel{fig:zoom}{{9}{28}{An example of searching for a range of bids with a confidence parameter $\delta = 0.4$, using successive partitions of $J=6$ arms, and with a threshold distribution following $\mathcal {N}(0.6, 0.02)$. The red vertical lines indicate the bounds of the bid intervals chosen progressively by Algorithm \ref {alg:ZoomSha}. The selected interval becomes increasingly precise and is always contained within the previously selected intervals}{figure.0.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{28}{section.0.4}\protected@file@percent }
+\citation{pmlr-v139-cheshire21a}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Endmatter}{30}{section.0.5}\protected@file@percent }
+\newlabel{sec:endmatter}{{5}{30}{Endmatter}{section.0.5}{}}
+\bibstyle{apalike}
+\bibdata{refs}
+\bibcite{NIPS2016_0bf727e9}{{1}{2016}{{Abernethy et~al.}}{{}}}
+\bibcite{ucbcitation}{{2}{2002}{{Auer et~al.}}{{}}}
+\bibcite{badanidiyuru2021learningbidcontextualprice}{{3}{2021}{{Badanidiyuru et~al.}}{{}}}
+\bibcite{pmlr-v139-cheshire21a}{{4}{2021}{{Cheshire et~al.}}{{}}}
+\bibcite{foucart13}{{5}{2013}{{Foucart and Rauhut}}{{}}}
+\bibcite{Hoeffding1963}{{6}{1963}{{Hoeffding}}{{}}}
+\bibcite{mnih:hal-00834983}{{7}{2008}{{Mnih et~al.}}{{}}}
+\bibcite{slivkins2024introductionmultiarmedbandits}{{8}{2024}{{Slivkins}}{{}}}
+\bibcite{Sutton1998}{{9}{2018}{{Sutton and Barto}}{{}}}
+\gdef \@abspage@last{34}

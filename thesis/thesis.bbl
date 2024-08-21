@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+
+\bibitem[Abernethy et~al., 2016]{NIPS2016_0bf727e9}
+Abernethy, J.~D., Amin, K., and Zhu, R. (2016).
+\newblock Threshold bandits, with and without censored feedback.
+\newblock In Lee, D., Sugiyama, M., Luxburg, U., Guyon, I., and Garnett, R.,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~29.
+  Curran Associates, Inc.
+
+\bibitem[Auer et~al., 2002]{ucbcitation}
+Auer, P., Cesa-Bianchi, N., and Fischer, P. (2002).
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine Learning}, 47:235--256.
+
+\bibitem[Badanidiyuru et~al., 2021]{badanidiyuru2021learningbidcontextualprice}
+Badanidiyuru, A., Feng, Z., and Guruganesh, G. (2021).
+\newblock Learning to bid in contextual first price auctions.
+
+\bibitem[Cheshire et~al., 2021]{pmlr-v139-cheshire21a}
+Cheshire, J., Menard, P., and Carpentier, A. (2021).
+\newblock Problem dependent view on structured thresholding bandit problems.
+\newblock In Meila, M. and Zhang, T., editors, {\em Proceedings of the 38th
+  International Conference on Machine Learning}, volume 139 of {\em Proceedings
+  of Machine Learning Research}, pages 1846--1854. PMLR.
+
+\bibitem[Foucart and Rauhut, 2013]{foucart13}
+Foucart, S. and Rauhut, H. (2013).
+\newblock {\em A Mathematical Introduction to Compressive Sensing}.
+\newblock Birkhauser Boston Inc.
+
+\bibitem[Hoeffding, 1963]{Hoeffding1963}
+Hoeffding, W. (1963).
+\newblock Probability inequalities for sums of bounded random variables.
+\newblock {\em Journal of the American Statistical Association},
+  58(301):13--30.
+
+\bibitem[Mnih et~al., 2008]{mnih:hal-00834983}
+Mnih, V., Szepesvari, C., and Audibert, J.-Y. (2008).
+\newblock {Empirical Bernstein stopping}.
+\newblock In {\em {ICML '08 Proceedings of the 25th international conference on
+  Machine learning}}, pages 672--679, Helsinki, Finland. {ACM}.
+
+\bibitem[Slivkins, 2024]{slivkins2024introductionmultiarmedbandits}
+Slivkins, A. (2024).
+\newblock Introduction to multi-armed bandits.
+
+\bibitem[Sutton and Barto, 2018]{Sutton1998}
+Sutton, R.~S. and Barto, A.~G. (2018).
+\newblock {\em Reinforcement Learning: An Introduction}.
+\newblock The MIT Press, second edition.
+
+\end{thebibliography}
